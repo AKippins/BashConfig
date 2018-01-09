@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+        "spec": "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/apm-install-dir-11809-28185-1k32z69.0rbzyc766r"
+    ]
+  ],
+  "_from": "../d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+  "_id": "language-robot-framework@2.2.0",
+  "_inCache": true,
+  "_location": "/language-robot-framework",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+    "spec": "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+  "_shasum": "554d1381f9e6eb9450f302da0aaad643dfc04770",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/d-11809-28185-ekui95.qygqk0rudi/package.tgz",
+  "_where": "/private/var/folders/l8/gs84v7ld6_z_vw58pggc_svc0000gn/T/apm-install-dir-11809-28185-1k32z69.0rbzyc766r",
+  "bugs": {
+    "url": "https://github.com/wingyplus/language-robot-framework/issues"
+  },
+  "dependencies": {},
+  "description": "Robot Framework syntax highlight for Atom",
+  "devDependencies": {
+    "atom-grammar-test": "^0.6.2",
+    "coffeelint": "^1.10.0"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/wingyplus/language-robot-framework#readme",
+  "license": "MIT",
+  "name": "language-robot-framework",
+  "optionalDependencies": {},
+  "readme": "language-robot-framework package\n================================\n\n[![Build Status](https://travis-ci.org/wingyplus/language-robot-framework.svg)](https://travis-ci.org/wingyplus/language-robot-framework)\n\nAdds syntax highlighting and snippets to Robot Framework files in Atom.\n\nContributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.\n\nThanks\n------\n[@roongr2k7 (Pitsanu Swangpheaw)](https://github.com/roongr2k7)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wingyplus/language-robot-framework.git"
+  },
+  "scripts": {
+    "all": "npm run lint && npm run test",
+    "lint": "coffeelint spec",
+    "test": "apm test"
+  },
+  "version": "2.2.0"
+}
